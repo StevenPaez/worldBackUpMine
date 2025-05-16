@@ -14,10 +14,10 @@ const starServer = () => {
 const restartServer = () => {
     if (server) {
         server.kill();
+        console.log('🔄 Restarting server...');
     }
-    console.log('🔄 Restarting server...');
     starServer();
 }
 
+starServer();
 watch('./index.js', restartServer);
-watch('./server.js', restartServer);

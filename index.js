@@ -24,7 +24,6 @@ const copyFolderToCompress = (nameWorld) => {
     const __filename = fileURLToPath(import.meta.url);
     const __dirname = dirname(__filename);
     const __folderBase = `/home/.minecraft/save/${nameWorld}`;
-    copyFileSync(__folderBase, __dirname);
 }
 
 const compressFolder = () => {}
