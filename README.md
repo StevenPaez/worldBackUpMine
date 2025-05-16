@@ -2,6 +2,7 @@
 
 Este es un proyecto sencillo desarrollado con **Node.js nativo**, sin frameworks externos, que permite:
 
+- 👀 Observador simple nativo (tipo nodemon).
 - 📁 Comprimir archivos o carpetas localmente.
 - ☁️ Subir los backups comprimidos a **AWS S3**.
 - 🕒 Automatizar el proceso de backups para entornos de desarrollo o producción.
@@ -33,5 +34,5 @@ Este es un proyecto sencillo desarrollado con **Node.js nativo**, sin frameworks
 ```bash
 git clone https://github.com/tuusuario/node-backup-s3.git
 cd worldBackUpMine
-node watcher.js // --> dev mode
-node server.js // --> prd mode
+node watcher.js # dev mode
+node server.js  # prd mode
