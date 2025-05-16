@@ -12,7 +12,7 @@ Este es un proyecto sencillo desarrollado con **Node.js nativo**, sin frameworks
 ## 🚀 Características
 
 - Compresión de archivos/carpeta a formato `.gz`.
-// - Autenticación segura con AWS mediante variables de entorno.
+- Autenticación segura con AWS mediante variables de entorno.
 - Subida automática del archivo comprimido a un bucket S3.
 - Limpieza opcional de archivos temporales locales.
 - Código escrito 100% en Node.js sin frameworks.
