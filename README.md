@@ -33,3 +33,5 @@ Este es un proyecto sencillo desarrollado con **Node.js nativo**, sin frameworks
 ```bash
 git clone https://github.com/tuusuario/node-backup-s3.git
 cd worldBackUpMine
+node watcher.js // --> dev mode
+node server.js // --> prd mode
